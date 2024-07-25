@@ -65,7 +65,7 @@ export default {
       fields: ["*"],
       filters: {},
       sort: {},
-      populate: "pb-deep",
+      // populate: "pb-deep",
     }
   ) {
     const entries = await pbEntityService.findMany(uid, params);
