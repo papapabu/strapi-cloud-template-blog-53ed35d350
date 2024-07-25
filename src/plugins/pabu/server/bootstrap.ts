@@ -81,7 +81,8 @@ export default async ({ strapi }: { strapi: Strapi }) => {
   await strapi.service("plugin::pabu.settings").createNecessaryFolders();
 
   // Generate default entries for store, contentElementSettings and global.
-  await strapi.service("plugin::pabu.defaults").generateDefaultEntries();
+  // await strapi.service("plugin::pabu.defaults").generateDefaultEntries();
+  console.log(strapi.components);
 
   await strapi.service("plugin::pabu.pbpage").init();
 
