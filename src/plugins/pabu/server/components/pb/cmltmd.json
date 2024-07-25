@@ -1,0 +1,112 @@
+{
+  "collectionName": "components_pb_cmltmd",
+  "info": {
+    "displayName": "multimedia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "youtubeUrl": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "audio": {
+      "allowedTypes": ["audios"],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "allowedTypes": ["videos"],
+      "type": "media",
+      "multiple": false
+    },
+    "videoTn": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "multimedia",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "bgColors",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

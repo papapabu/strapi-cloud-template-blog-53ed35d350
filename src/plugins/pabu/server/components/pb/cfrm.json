@@ -1,0 +1,152 @@
+{
+  "collectionName": "components_pb_cfrm",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cfgSelectFormId": {
+      "type": "integer",
+      "default": 0
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "form",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "bgColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgStrInnerButtonSubmitButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "submitButton.buttons",
+        "storeType": "button",
+        "values": []
+      }
+    },
+    "cfgStrInnerButtonFileUploadButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "fileUploadButton.buttons",
+        "storeType": "button",
+        "values": []
+      }
+    },
+    "cfgStrInnerButtonBackButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "backButton.buttons",
+        "storeType": "button",
+        "values": []
+      }
+    },
+    "cfgStrInnerTypographyInputTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "inputTypography",
+        "storeType": "typography",
+        "values": []
+      }
+    },
+    "cfgStrInnerTypographyInputLabelTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "inputLabelTypography",
+        "storeType": "typography",
+        "values": []
+      }
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "collectionName": "components_pb_csmgwthmrkrs",
+  "info": {
+    "displayName": "image with markers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "textBackgroundColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "markerColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "richtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "richtext",
+      "isOneToOne": true
+    },
+    "marker": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "icon",
+      "isOneToOne": false
+    },
+    "markerSize": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 30, "tablet": 40, "desktop": 50, "wqhd": 60 },
+      "fields": ["mobile", "tablet", "desktop", "wqhd"],
+      "fieldLabels": ["mobile", "tablet", "desktop", "wqhd"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "textMargin": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "right": 8,
+        "left": 8
+      },
+      "fields": ["right", "left"],
+      "fieldLabels": ["right", "left"],
+      "dataType": "integer",
+      "inputType": "integer"
+    }
+  }
+}

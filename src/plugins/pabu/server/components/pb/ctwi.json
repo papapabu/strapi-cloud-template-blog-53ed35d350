@@ -1,0 +1,212 @@
+{
+  "collectionName": "components_pb_ctwi",
+  "info": {
+    "displayName": "text with image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "richTextContent": {
+      "type": "richtext"
+    },
+    "btnUrl": {
+      "type": "text"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "btnRel": {
+      "type": "string"
+    },
+    "btnTarget": {
+      "type": "enumeration",
+      "enum": ["_blank", "_self", "_top", "_parent"],
+      "default": "_self"
+    },
+    "btnGetParams": {
+      "type": "string"
+    },
+    "btnHrefLang": {
+      "type": "string"
+    },
+    "btnAnchorName": {
+      "type": "string"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "text with image",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "bgColors",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgStrInnerHeadlineTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "headline.typographys",
+        "storeType": "typography",
+        "values": []
+      }
+    },
+    "cfgStrInnerHeadlineFont": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "headline.fonts",
+        "storeType": "font",
+        "values": []
+      }
+    },
+    "cfgStrInnerHeadlineFontColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "headline.fontColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgStrInnerButtonButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "button.buttons",
+        "storeType": "button",
+        "values": []
+      }
+    },
+    "cfgImageLeft": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgImageTopInsteadOfRight": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgPositionImageOrTextAtTop": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgStrTextToImageRatio": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "ratio",
+        "storeType": "custom",
+        "values": []
+      }
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgHeadlineType": {
+      "type": "enumeration",
+      "enum": ["default", "h1", "h2", "h3", "h4", "h5", "h6", "paragraph"],
+      "default": "default"
+    },
+    "cfgImageObjectFit": {
+      "type": "enumeration",
+      "enum": ["objectfit-contain", "objectfit-cover", "objectfit-none"],
+      "default": "objectfit-contain"
+    },
+    "cfgImageIgnoresMaxWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

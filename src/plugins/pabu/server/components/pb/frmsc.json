@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pb_frmsc",
+  "info": {
+    "displayName": "frmsc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "richtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "richtext",
+      "isOneToOne": true
+    }
+  }
+}

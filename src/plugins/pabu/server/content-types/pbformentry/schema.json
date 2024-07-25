@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pbformentry",
+  "info": {
+    "singularName": "pbformentry",
+    "pluralName": "pbformentries",
+    "displayName": "pbformentry",
+    "description": ""
+  },
+   "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formId": {
+      "type": "integer",
+      "required": true
+    },
+    "formCopy": {
+      "type": "json"
+    },
+    "data": {
+      "type": "dynamiczone",
+      "components": [
+        "pb.frmstr",
+        "pb.frmml",
+        "pb.frmbl",
+        "pb.frmtxt",
+        "pb.frmfl",
+        "pb.frmdt",
+        "pb.frmnm"
+      ]
+    },
+    "formDataValues": {
+      "type": "json"
+    }
+  }
+}

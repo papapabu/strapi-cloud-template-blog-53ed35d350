@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_pb_cspcr",
+  "info": {
+    "displayName": "spacer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "spacer",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "bgColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgIsDoubledHeight": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    }
+  }
+}

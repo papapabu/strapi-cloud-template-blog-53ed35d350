@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_pb_cshdln",
+  "info": {
+    "displayName": "headline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "headlineheading": {
+      "type": "enumeration",
+      "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p"],
+      "default": "h2"
+    },
+    "subheadlineheading": {
+      "type": "enumeration",
+      "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p"],
+      "default": "h3"
+    },
+    "typographys": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": false
+    },
+    "fonts": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "font",
+      "isOneToOne": false
+    },
+    "fontColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "spacerHeadline": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    }
+  }
+}

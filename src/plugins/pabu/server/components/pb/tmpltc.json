@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pb_tmpltc",
+  "info": {
+    "displayName": "email: templateconfig",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "templateName": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    },
+    "emailSubject": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    },
+    "optionalRecipients": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    },
+    "emailTemplateString": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": ""
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["form"],
+      "default": "form"
+    }
+  }
+}

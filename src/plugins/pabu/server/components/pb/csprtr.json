@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_pb_csprtr",
+  "info": {
+    "displayName": "separator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cfgSeparatorTemplate": {
+      "type": "enumeration",
+      "enum": [
+        "shape-divider",
+        "shape-triangle",
+        "shape-skewed",
+        "shape-waves",
+        "shape-waves-opacity"
+      ],
+      "default": "shape-divider"
+    },
+    "cfgShapeFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgShapeHeight": {
+      "type": "enumeration",
+      "enum": [
+        "shape-height-small",
+        "shape-height-medium",
+        "shape-height-large"
+      ],
+      "default": "shape-height-medium",
+      "required": true
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "separator",
+        "values": []
+      }
+    },
+    "cfgStrBgColorTop": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "bgColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgStrBgColorBottom": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "bgColors",
+        "storeType": "color",
+        "values": []
+      }
+    }
+  }
+}

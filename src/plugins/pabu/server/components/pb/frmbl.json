@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_pb_frmbl",
+  "info": {
+    "displayName": "checkbox",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldValue": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "fieldRichTextDescription": {
+      "type": "richtext"
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

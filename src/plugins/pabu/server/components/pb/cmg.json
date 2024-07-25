@@ -1,0 +1,139 @@
+{
+  "collectionName": "components_pb_cmg",
+  "info": {
+    "displayName": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cfgHasOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgHideCaption": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgCaptionTextAlign": {
+      "type": "enumeration",
+      "enum": ["left", "center", "right"],
+      "default": "center"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "image",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "bgColors",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgStrTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "typographys",
+        "storeType": "typography",
+        "values": []
+      }
+    },
+    "cfgUseHighestImageQuality": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgImageObjectFit": {
+      "type": "enumeration",
+      "enum": ["objectfit-contain", "objectfit-cover", "objectfit-none"],
+      "default": "objectfit-contain"
+    },
+    "cfgImageIgnoresMaxWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "imgCaption": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

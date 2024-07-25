@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pb_mlc",
+  "info": {
+    "displayName": "email: config",
+    "icon": "mail-bulk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fromAddress": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    },
+    "replyAddress": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    }
+  }
+}

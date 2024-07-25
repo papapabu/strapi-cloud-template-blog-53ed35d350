@@ -1,0 +1,90 @@
+{
+  "collectionName": "components_pb_csccrdn",
+  "info": {
+    "displayName": "accordion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "panelMargin": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 10
+    },
+    "titleHeading": {
+      "type": "enumeration",
+      "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p"],
+      "default": "h3"
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "bgColorsTitle": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "bgColorsPanel": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "headline": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "headline",
+      "isOneToOne": true
+    },
+    "richtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "richtext",
+      "isOneToOne": true
+    },
+    "textMargin": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "left": 0,
+        "right": 0
+      },
+      "fields": ["left", "right"],
+      "fieldLabels": ["left", "right"],
+      "dataType": "integer",
+      "inputType": "integer"
+    }
+  }
+}

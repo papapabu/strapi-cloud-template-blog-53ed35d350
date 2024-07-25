@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_pb_csmgtckr",
+  "info": {
+    "displayName": "image ticker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "imageTickerHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 80, "tablet": 90, "desktop": 100, "wqhd": 120 },
+      "fields": ["mobile", "tablet", "desktop", "wqhd"],
+      "fieldLabels": ["mobile", "tablet", "desktop", "wqhd"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "sideShadowColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "imageMarginRight": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    },
+    "slideSpeedScalingFactor": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 5
+    },
+    "opacity": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "0.6",
+      "regex": "^(0(\\.\\d+)?|1)$"
+    }
+  }
+}

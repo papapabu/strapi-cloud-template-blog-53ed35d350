@@ -1,0 +1,29 @@
+
+{
+  "kind": "singleType",
+  "collectionName": "pbcmssetting",
+  "info": {
+    "singularName": "pbcmssetting",
+    "pluralName": "pbcmssettings",
+    "displayName": "CMS Settings"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "googlerecaptchav2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.cmsrcptchv2",
+      "required": true
+    },
+    "configmodalsettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.cmscfgmdl",
+      "required": true
+    }
+  }
+}

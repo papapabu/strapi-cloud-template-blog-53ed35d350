@@ -1,0 +1,51 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "strs",
+  "info": {
+    "singularName": "str",
+    "pluralName": "strs",
+    "displayName": "store"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "type": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "struuid": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "setting": {
+      "type": "dynamiczone",
+      "components": [
+        "pb.sclr",
+        "pb.sfnt",
+        "pb.sgglfnt",
+        "pb.stypgrphy",
+        "pb.srchtxt",
+        "pb.sbttn",
+        "pb.slnk",
+        "pb.sbckgrnd",
+        "pb.srrws",
+        "pb.sspcx",
+        "pb.sspcy",
+        "pb.scn"
+      ],
+      "max": 1,
+      "required": true,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,101 @@
+
+{
+  "kind": "singleType",
+  "collectionName": "glbls",
+  "info": {
+    "singularName": "glbl",
+    "pluralName": "glbls",
+    "displayName": "global"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "responsive": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.rspnsvc",
+      "required": true
+    },
+    "layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.lytc",
+      "required": true
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.nvgtnc",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.ftrc",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.sc",
+      "required": true
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.lgc",
+      "required": true
+    },
+    "forms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.frmsc",
+      "required": true
+    },
+    "search": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.srchc",
+      "required": true
+    },
+    "searchresults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.srchrsltsc",
+      "required": true
+    },
+    "multilanguage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.mltlnggc",
+      "required": true
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.nmtnc",
+      "required": true
+    },
+    "scrolling": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.scrllngc",
+      "required": true
+    },
+    "scrolltotop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.scrllttpc",
+      "required": true
+    },
+    "captchatype": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.cptchtpc",
+      "required": true
+    }
+  }
+}

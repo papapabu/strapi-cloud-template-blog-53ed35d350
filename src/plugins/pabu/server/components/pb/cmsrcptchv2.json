@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pb_cmsrcptchv2",
+  "info": {
+    "displayName": "google recaptcha v2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "recaptchav2publickey": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    },
+    "recaptchav2privatekey": {
+      "type": "password"
+    }
+  }
+}

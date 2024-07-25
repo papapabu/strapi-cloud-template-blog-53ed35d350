@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_pb_frmstr",
+  "info": {
+    "displayName": "string",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldPlaceholder": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldValue": {
+      "type": "string"
+    },
+    "cfgFieldCharactersMax": {
+      "type": "integer"
+    },
+    "cfgFieldCharactersMin": {
+      "type": "integer"
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "cfgFieldCustomRegex": {
+      "type": "string"
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "cfgFieldNoLetters": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldNoNumbers": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldNoSpecialCharacters": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldNoWhitespaceCharacters": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_pb_crslsld",
+  "info": {
+    "displayName": "carouselslide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "secondHeadline": {
+      "type": "text"
+    },
+    "richTextContent": {
+      "type": "richtext"
+    },
+    "linkUrl": {
+      "type": "text"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imgTitle": {
+      "type": "string"
+    },
+    "linkRel": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "enumeration",
+      "enum": ["_blank", "_self", "_top", "_parent"],
+      "default": "_self"
+    },
+    "linkGetParams": {
+      "type": "string"
+    },
+    "linkHrefLang": {
+      "type": "string"
+    },
+    "linkAnchor": {
+      "type": "string"
+    }
+  }
+}

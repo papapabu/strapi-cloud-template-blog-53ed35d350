@@ -1,0 +1,125 @@
+{
+  "collectionName": "components_pb_cgllry",
+  "info": {
+    "displayName": "gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "displayName": "galleryslide",
+      "type": "component",
+      "repeatable": true,
+      "component": "pb.gllrysld"
+    },
+    "cfgStrLayout": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "layouts",
+        "storeType": "layout",
+        "values": []
+      }
+    },
+    "cfgUseHighestImageQuality": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "gallery",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "bgColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgStrHoverColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "hoverColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

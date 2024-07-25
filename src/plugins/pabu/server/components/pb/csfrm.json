@@ -1,0 +1,123 @@
+{
+  "collectionName": "components_pb_csfrm",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "maxWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 470, "tablet": 680, "desktop": 992, "wqhd": 1200 },
+      "fields": ["mobile", "tablet", "desktop", "wqhd"],
+      "fieldLabels": ["mobile", "tablet", "desktop", "wqhd"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "headlineheading": {
+      "type": "enumeration",
+      "enum": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "default": "h3"
+    },
+    "headlineEnabled": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "formFieldInputSpace": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "aboveInput": 5, "belowInput": 20 },
+      "fields": ["aboveInput", "belowInput"],
+      "fieldLabels": ["aboveInput", "belowInput"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "inputBgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "inputBorder": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "3px solid #d2d4da"
+    },
+    "inputBorderHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "3px solid #d2d4da"
+    },
+    "inputLabelTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography"
+    },
+    "inputTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography"
+    },
+    "submitButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "button",
+      "isOneToOne": true
+    },
+    "backButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "button",
+      "isOneToOne": true
+    },
+    "fileUploadButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "button",
+      "isOneToOne": true
+    },
+    "additionalCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": ""
+    }
+  }
+}

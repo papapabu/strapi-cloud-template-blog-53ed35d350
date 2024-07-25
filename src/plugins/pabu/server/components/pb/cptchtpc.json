@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pb_cptchtpc",
+  "info": {
+    "displayName": "captcha type",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "formCaptchaType": {
+      "type": "enumeration",
+      "enum": ["none", "googlerecaptchav2"],
+      "default": "none"
+    }
+  }
+}

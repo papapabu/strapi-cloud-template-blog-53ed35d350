@@ -21,7 +21,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "cd src/plugins/pabu && npm run pabu-build && cd ../../.. && strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},

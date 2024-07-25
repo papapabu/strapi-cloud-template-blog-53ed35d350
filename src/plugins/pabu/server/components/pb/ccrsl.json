@@ -1,0 +1,233 @@
+{
+  "collectionName": "components_pb_ccrsls",
+  "info": {
+    "displayName": "carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "displayName": "carouselslide",
+      "type": "component",
+      "repeatable": true,
+      "component": "pb.crslsld"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "carousel",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "bgColors",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgStrContainerColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "containerColors",
+        "values": []
+      }
+    },
+    "cfgStrBorderColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "borderColors",
+        "values": []
+      }
+    },
+    "cfgStrInnerHeadlineTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "headline.typographys",
+        "storeType": "typography",
+        "values": []
+      }
+    },
+    "cfgStrInnerHeadlineFont": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "headline.fonts",
+        "storeType": "font",
+        "values": []
+      }
+    },
+    "cfgStrInnerHeadlineFontColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "headline.fontColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgStrInnerSubheadlineTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "subheadline.typographys",
+        "storeType": "typography",
+        "values": []
+      }
+    },
+    "cfgStrInnerSubheadlineFont": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "subheadline.fonts",
+        "storeType": "font",
+        "values": []
+      }
+    },
+    "cfgStrInnerSubheadlineFontColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "subheadline.fontColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgHeadlineType": {
+      "type": "enumeration",
+      "enum": ["default", "h1", "h2", "h3", "h4", "h5", "h6", "paragraph"],
+      "default": "default"
+    },
+    "cfgSubheadlineType": {
+      "type": "enumeration",
+      "enum": ["default", "h1", "h2", "h3", "h4", "h5", "h6", "paragraph"],
+      "default": "default"
+    },
+    "cfgStrInnerButtonButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "button.buttons",
+        "storeType": "button",
+        "values": []
+      }
+    },
+    "cfgShowTitleInMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "cfgShowHeadlineInMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "cfgShowTextInMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "cfgShowButtonInMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "cfgUseHighestImageQuality": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgShadowLayerBottom": {
+      "type": "enumeration",
+      "enum": ["default", "with-layer", "without-layer"],
+      "default": "default"
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

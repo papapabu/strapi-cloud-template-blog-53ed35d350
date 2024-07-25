@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pb_scrllngc",
+  "info": {
+    "displayName": "scrllngc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "scrollEffect": {
+      "type": "enumeration",
+      "enum": ["auto", "instant", "smooth"],
+      "default": "auto"
+    }
+  }
+}

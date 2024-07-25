@@ -1,0 +1,100 @@
+{
+  "collectionName": "components_pb_nvgtnc",
+  "info": {
+    "displayName": "nvgtnc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "linkTopLevel": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "link",
+      "isOneToOne": true
+    },
+    "linkLevel2": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "link",
+      "isOneToOne": true
+    },
+    "linkLevel3": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "link",
+      "isOneToOne": true
+    },
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "bgColorLinks": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "linkActiveColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "logoMaxHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 0, "desktop": 0 },
+      "fields": ["mobile", "desktop"],
+      "fieldLabels": ["mobile", "desktop"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "onlyMobileNavigation": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "mobileNavDrawerWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "80%"
+    },
+    "mobileDrawerDropDirection": {
+      "type": "enumeration",
+      "enum": ["top", "left", "right", "bottom"],
+      "default": "left"
+    },
+    "showAllNavItems": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "additionalCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": ".navigation {}\n.navigation-desktop {}\n.navigation-desktop > .navigation-desktop-logo {}\n.navigation-desktop > nav {}\n.navigation-desktop > .navigation-desktop-action-group {}\n\n.navigation-mobile {}\n.navigation-mobile > .navigation-mobile-logo {}\n.navigation-mobile > .navigation-mobile-action-group {}\n.navigation-mobile-menu {}\n.navigation-mobile-header {}\n.navigation-mobile-menu > nav {}\n.navigation-mobile-menu > nav > .navigation-item {}\n.navigation-search {}"
+    }
+  }
+}

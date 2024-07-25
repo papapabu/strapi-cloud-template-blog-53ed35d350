@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_pb_mgtckrsld",
+  "info": {
+    "displayName": "imagetickerslide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "linkRel": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "enumeration",
+      "enum": ["_blank", "_self", "_top", "_parent"],
+      "default": "_self"
+    },
+    "linkGetParams": {
+      "type": "string"
+    },
+    "linkHrefLang": {
+      "type": "string"
+    },
+    "linkAnchor": {
+      "type": "string"
+    }
+  }
+}

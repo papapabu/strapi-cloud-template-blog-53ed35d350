@@ -1,0 +1,130 @@
+{
+  "collectionName": "components_pb_srchtxt",
+  "info": {
+    "displayName": "richtext",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "bold": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "italic": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "underlined": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "crossedout": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "link": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "subscript": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "superscript": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "alignleft": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "alignright": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "aligncenter": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "indentationreduce": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "indentationincrease": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "listbullet": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "listnumber": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "h1": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "h2": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "h3": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "h4": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "h5": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "h6": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "html": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "colors": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_pb_frmdt",
+  "info": {
+    "displayName": "date",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldPlaceholder": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldValue": {
+      "type": "date"
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "cfgCalendarStart": {
+      "type": "date"
+    },
+    "cfgMaxDaysPast": {
+      "type": "integer"
+    },
+    "cfgMaxDaysFuture": {
+      "type": "integer"
+    },
+    "cfgNotAllowedDatesStart": {
+      "type": "date"
+    },
+    "cfgNotAllowedDatesEnd": {
+      "type": "date"
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

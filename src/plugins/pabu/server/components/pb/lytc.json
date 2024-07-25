@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_pb_lytc",
+  "info": {
+    "displayName": "lytc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "containerWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "100%"
+    },
+    "containerBgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "scalingfactorSpaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 0.5,
+        "tablet": 0.75,
+        "desktop": 1,
+        "wqhd": 1.25
+      },
+      "inputType": "string",
+      "dataType": "float"
+    },
+    "scalingfactorSpaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 0.5,
+        "tablet": 0.75,
+        "desktop": 1,
+        "wqhd": 1.25
+      },
+      "inputType": "string",
+      "dataType": "float"
+    },
+    "verticalpadding": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 30
+    },
+    "verticalpaddingafterfirstelement": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 30
+    },
+    "verticalpaddingbeforefooter": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 30
+    },
+    "scalingfactorVerticalPadding": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 0.5,
+        "tablet": 0.75,
+        "desktop": 1,
+        "wqhd": 1.25
+      },
+      "inputType": "string",
+      "dataType": "float"
+    }
+  }
+}

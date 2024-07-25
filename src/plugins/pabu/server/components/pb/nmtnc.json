@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pb_nmtnc",
+  "info": {
+    "displayName": "nmtnc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "triggerGap": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 100
+    },
+    "animationsMobile": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "triggerInitialAnimation": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    }
+  }
+}

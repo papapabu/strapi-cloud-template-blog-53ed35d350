@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_pb_csmltmd",
+  "info": {
+    "displayName": "multimedia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "mediaMaxWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 300,
+        "tablet": 400,
+        "desktop": 600,
+        "wqhd": 600
+      },
+      "inputType": "integer",
+      "dataType": "integer"
+    }
+  }
+}

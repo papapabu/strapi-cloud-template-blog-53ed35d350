@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "customs",
+  "info": {
+    "singularName": "custom",
+    "pluralName": "customs",
+    "displayName": "custom"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "css": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "/*CustomCSS:*/\n/*You can override generated CSS here or add additional custom styling.*/\n"
+    },
+    "tabletCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "/*CustomCSS:*/\n/*You can override generated CSS here or add additional custom styling.*/\n"
+    },
+    "desktopCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "/*CustomCSS:*/\n/*You can override generated CSS here or add additional custom styling.*/\n"
+    },
+    "wqhdCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "/*CustomCSS:*/\n/*You can override generated CSS here or add additional custom styling.*/\n"
+    },
+    "headScripts": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "<!-- You can add custom scripts here. -->\n"
+    },
+    "bodyScripts": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "<!-- You can add custom scripts here. -->\n"
+    }
+  }
+}

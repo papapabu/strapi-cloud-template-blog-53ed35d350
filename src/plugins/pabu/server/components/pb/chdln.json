@@ -1,0 +1,185 @@
+{
+  "collectionName": "components_pb_chdln",
+  "info": {
+    "displayName": "headline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primaryHeadline": {
+      "type": "string"
+    },
+    "secondaryHeadline": {
+      "type": "text"
+    },
+    "cfgHeadlineAlignPrimary": {
+      "type": "enumeration",
+      "enum": ["left", "center", "right"],
+      "default": "left"
+    },
+    "cfgHeadlineAlignSecondary": {
+      "type": "enumeration",
+      "enum": ["left", "center", "right"],
+      "default": "left"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "headline",
+        "values": []
+      }
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "bgColors",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgHeadlineTypePrimary": {
+      "type": "enumeration",
+      "enum": ["default", "h1", "h2", "h3", "h4", "h5", "h6", "paragraph"],
+      "default": "default"
+    },
+    "cfgStrTypographyPrimary": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "typographys",
+        "storeType": "color",
+        "values": [1]
+      }
+    },
+    "cfgStrFontPrimary": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "font",
+        "settingsField": "fonts",
+        "values": []
+      }
+    },
+    "cfgStrFontColorPrimary": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "fontColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgHeadlineTypeSecondary": {
+      "type": "enumeration",
+      "enum": ["default", "h1", "h2", "h3", "h4", "h5", "h6", "paragraph"],
+      "default": "default"
+    },
+    "cfgStrTypographySecondary": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "color",
+        "settingsField": "typographys",
+        "values": []
+      }
+    },
+    "cfgStrFontSecondary": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "font",
+        "settingsField": "fonts",
+        "values": []
+      }
+    },
+    "cfgStrFontColorSecondary": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "fontColors",
+        "storeType": "color",
+        "values": []
+      }
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    }
+  }
+}

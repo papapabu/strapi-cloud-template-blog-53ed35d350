@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_pb_srchc",
+  "info": {
+    "displayName": "srchc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "searchEnabled": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "searchPlaceholder": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "navSearchIconColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchBarBgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchBarTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "searchBarSearchIconColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchBarCloseIconColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchBarBgHoverColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchBarMaxWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "collectionName": "components_pb_csgllry",
+  "info": {
+    "displayName": "gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "arrows": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "arrows",
+      "isOneToOne": true
+    },
+    "layouts": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "default,masonry,grid",
+      "technicalField": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "hoverColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "imgHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 200, "tablet": 300, "desktop": 400, "wqhd": 600 },
+      "fields": ["mobile", "tablet", "desktop", "wqhd"],
+      "fieldLabels": ["mobile", "tablet", "desktop", "wqhd"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "showThumbnails": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "showFullscreenButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "showPlayButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "fullScreenIconColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "fullScreenIconFilterCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "drop-shadow(0px 3px 2px rgba(134, 134, 134, 0.6))",
+      "technicalField": false
+    },
+    "masonryColumnCount": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 1, "tablet": 3, "desktop": 5, "wqhd": 5 },
+      "fields": ["mobile", "tablet", "desktop", "wqhd"],
+      "fieldLabels": ["mobile", "tablet", "desktop", "wqhd"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "masonryMaxWidthPercent": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 75
+    },
+    "masonrySpaceBetween": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 2
+    },
+    "gridImageSize": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "width": 100, "height": 100 },
+      "fields": ["width", "height"],
+      "fieldLabels": ["width", "height"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "gridMaxWidthPercent": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 75
+    },
+    "gridSpaceBetween": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 2
+    },
+    "gridColumnCount": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 1, "tablet": 3, "desktop": 4, "wqhd": 5 },
+      "fields": ["mobile", "tablet", "desktop", "wqhd"],
+      "fieldLabels": ["mobile", "tablet", "desktop", "wqhd"],
+      "dataType": "integer",
+      "inputType": "integer"
+    }
+  }
+}

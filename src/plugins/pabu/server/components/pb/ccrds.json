@@ -1,0 +1,151 @@
+{
+  "collectionName": "components_pb_ccrds",
+  "info": {
+    "displayName": "cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pb.crd"
+    },
+    "cfgCardColumnsAmount": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "colAmount-2",
+        "colAmount-3",
+        "colAmount-4",
+        "colAmount-6"
+      ],
+      "default": "colAmount-2"
+    },
+    "cfgCardAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "flex-start",
+        "flex-end",
+        "space-between",
+        "space-evenly"
+      ],
+      "default": "flex-start"
+    },
+    "cfgStrBackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "color",
+        "settingsField": "bgColors",
+        "values": []
+      }
+    },
+    "cfgStrBackground": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "storeType": "background",
+        "values": []
+      }
+    },
+    "cfgAnchorName": {
+      "type": "string"
+    },
+    "cfgCustomClassName": {
+      "type": "string"
+    },
+    "cfgImageMaxHeight": {
+      "type": "enumeration",
+      "enum": ["small", "medium", "big"],
+      "default": "medium"
+    },
+    "cfgCardWidth": {
+      "type": "enumeration",
+      "enum": ["cardwidth-100", "cardwidth-95", "cardwidth-90", "cardwidth-85"],
+      "default": "cardwidth-100"
+    },
+    "cfgAnimationIn": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeIn",
+        "fadeInDown",
+        "fadeInDownBig",
+        "fadeInLeft",
+        "fadeInLeftBig",
+        "fadeInRight",
+        "fadeInRightBig",
+        "fadeInUp",
+        "fadeInUpBig",
+        "fadeInTopLeft",
+        "fadeInTopRight",
+        "fadeInBottomLeft",
+        "fadeInBottomRight"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationOut": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeOut",
+        "fadeOutDown",
+        "fadeOutDownBig",
+        "fadeOutLeft",
+        "fadeOutLeftBig",
+        "fadeOutRight",
+        "fadeOutRightBig",
+        "fadeOutUp",
+        "fadeOutUpBig",
+        "fadeOutTopLeft",
+        "fadeOutTopRight",
+        "fadeOutBottomRight",
+        "fadeOutBottomLeft"
+      ],
+      "default": "none"
+    },
+    "cfgAnimationCardHover": {
+      "type": "enumeration",
+      "enum": ["none", "hover-floating", "hover-zoom-in"],
+      "default": "none"
+    },
+    "cfgInfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": null
+    },
+    "cfgStrContentElementSetting": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "cesstr",
+        "storeType": "cards",
+        "values": []
+      }
+    },
+    "cfgStrInnerButtonButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {
+        "store": "str",
+        "settingsField": "button.buttons",
+        "storeType": "button",
+        "values": []
+      }
+    },
+    "cfgCardButtonAlignment": {
+      "type": "enumeration",
+      "enum": ["center", "flex-start", "flex-end"],
+      "default": "center"
+    }
+  }
+}

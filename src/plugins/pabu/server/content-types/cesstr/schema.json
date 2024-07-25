@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cesstrs",
+  "info": {
+    "singularName": "cesstr",
+    "pluralName": "cesstrs",
+    "displayName": "contentElementSettings"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "type": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "struuid": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "setting": {
+      "type": "dynamiczone",
+      "components": [
+        "pb.cshdln",
+        "pb.csrchtxt",
+        "pb.csbttn",
+        "pb.csfrm",
+        "pb.cssprtr",
+        "pb.csspcr",
+        "pb.csgllry",
+        "pb.cstwi",
+        "pb.csmg",
+        "pb.csmgtckr",
+        "pb.cscrsl",
+        "pb.csmltmd",
+        "pb.cscrds",
+        "pb.csccrdn",
+        "pb.cshtml",
+        "pb.csmgwthmrkrs"
+      ],
+      "max": 1,
+      "required": true,
+      "min": 1
+    }
+  }
+}

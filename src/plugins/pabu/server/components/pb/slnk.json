@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_pb_slnk",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "font": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "font",
+      "isOneToOne": true
+    },
+    "color": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "fontSize": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 14, "desktop": 16 },
+      "fields": ["mobile", "desktop"],
+      "fieldLabels": ["mobile", "desktop"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "fontWeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 600
+    },
+    "lineHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "1.2"
+    },
+    "colorHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "additionalCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": ""
+    },
+    "additionalCssHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "text-decoration: underline; letter-spacing: normal; text-transform: none;"
+    }
+  }
+}

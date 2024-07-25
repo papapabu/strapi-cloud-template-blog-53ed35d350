@@ -1,0 +1,158 @@
+{
+  "collectionName": "components_pb_srchrsltsc",
+  "info": {
+    "displayName": "srchrsltsc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "h1Typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h2Typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "ctTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "resultTypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "resultLink": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "link",
+      "isOneToOne": true
+    },
+    "contentTypeDivider": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "1px solid #000"
+    },
+    "marginBetweenContentType": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 15
+    },
+    "elementSpace": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "x": 20, "y": 10 },
+      "fields": ["x", "y"],
+      "fieldLabels": ["x", "y"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "listElementSpaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 6
+    },
+    "searchTermSpace": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    },
+    "searchSummarySpace": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    },
+    "searchFilterSpace": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    },
+    "searchFilterBgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterBorderColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterDropdownBgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterDropdownBgColorHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterDropdownFontColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterChipBgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterChipFontColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "searchFilterChipBorder": {
+      "type": "string",
+      "default": "border: 1px solid #000"
+    },
+    "searchFilterBorderHoverColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    }
+  }
+}

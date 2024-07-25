@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pbdynamiclists",
+  "info": {
+    "singularName": "pbdynamiclist",
+    "pluralName": "pbdynamiclists",
+    "displayName": "pbdynamiclist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": ["pb.lsttem"],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "collectionName": "components_pb_sbttn",
+  "info": {
+    "displayName": "button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "font": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "font",
+      "isOneToOne": true
+    },
+    "lineHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "1.2"
+    },
+    "fontSize": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "mobile": 14, "desktop": 16 },
+      "fields": ["mobile", "desktop"],
+      "fieldLabels": ["mobile", "desktop"],
+      "dataType": "integer"
+    },
+    "fontWeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 600
+    },
+    "buttonColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "buttonColorHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "fontColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "fontColorHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "border": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "border: 1px solid #6c757d; border-radius: 5px;"
+    },
+    "buttonWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "minWidth": 100, "maxWidth": 350 },
+      "fields": ["minWidth", "maxWidth"],
+      "fieldLabels": ["minWidth", "maxWidth"],
+      "dataType": "integer"
+    },
+    "buttonPadding": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "horizontal": 25, "vertical": 5 },
+      "fields": ["horizontal", "vertical"],
+      "fieldLabels": ["horizontal", "vertical"],
+      "dataType": "integer"
+    },
+    "additionalCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "text-transform: none;"
+    },
+    "additionalCssHover": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "border: 1px solid #000000; border-radius: 0;"
+    }
+  }
+}

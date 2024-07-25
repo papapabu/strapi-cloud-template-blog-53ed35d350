@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_pb_sclr",
+  "info": {
+    "displayName": "color",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "color": {
+      "type": "customField",
+      "customField": "plugin::pabu.hex-color",
+      "default": "#000000"
+    },
+    "valueAttribute": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "color",
+      "technicalField": true
+    }
+  }
+}

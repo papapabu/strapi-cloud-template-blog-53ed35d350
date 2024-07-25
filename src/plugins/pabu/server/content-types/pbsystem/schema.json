@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "pbsystems",
+  "info": {
+    "singularName": "pbsystem",
+    "pluralName": "pbsystems",
+    "displayName": "pbsystem"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "version": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "systemFiles": {
+      "type": "customField",
+      "customField": "plugin::pabu.json-value",
+      "technicalField": true,
+      "default": {}
+    }
+  }
+}

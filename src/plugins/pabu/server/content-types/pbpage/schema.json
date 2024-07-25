@@ -1,0 +1,140 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pbpages",
+  "info": {
+    "singularName": "pbpage",
+    "pluralName": "pbpages",
+    "displayName": "pbpages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "refId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "isDraft": {
+      "type": "boolean",
+      "default": false
+    },
+    "published": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "seoSettings": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "hasNavigation": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "hasBreadcrumbs": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "hasFooter": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "isSeoTitlePageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
+    },
+    "canonicalLinkUrl": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "pb.chdln",
+        "pb.crchtxt",
+        "pb.cbttn",
+        "pb.cfrm",
+        "pb.csprtr",
+        "pb.cspcr",
+        "pb.cgllry",
+        "pb.ctwi",
+        "pb.cmg",
+        "pb.cmgtckr",
+        "pb.ccrsl",
+        "pb.ccrds",
+        "pb.cmltmd",
+        "pb.cccrdn",
+        "pb.csrchrslts",
+        "pb.chtml",
+        "pb.cmgwthmrkrs"
+      ]
+    }
+  }
+}

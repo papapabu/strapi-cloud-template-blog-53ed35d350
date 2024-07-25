@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pb_frmml",
+  "info": {
+    "displayName": "email",
+    "icon": "envelope"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldPlaceholder": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldValue": {
+      "type": "email"
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

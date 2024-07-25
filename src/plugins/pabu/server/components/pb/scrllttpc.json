@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_pb_scrllttpc",
+  "info": {
+    "displayName": "scrllttpc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "arrowColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "scrolltotopWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 40,
+        "tablet": 50,
+        "desktop": 60,
+        "wqhd": 70
+      },
+      "inputType": "integer",
+      "dataType": "integer"
+    },
+    "scrolltotopHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 40,
+        "tablet": 50,
+        "desktop": 60,
+        "wqhd": 70
+      },
+      "inputType": "integer",
+      "dataType": "integer"
+    },
+    "borderRadius": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 20,
+        "tablet": 25,
+        "desktop": 30,
+        "wqhd": 35
+      },
+      "inputType": "integer",
+      "dataType": "integer"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "scrollEffect": {
+      "type": "enumeration",
+      "enum": ["auto", "instant", "smooth"],
+      "default": "auto"
+    }
+  }
+}

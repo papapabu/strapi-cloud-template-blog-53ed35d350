@@ -1,0 +1,119 @@
+{
+  "collectionName": "components_pb_csrchtxt",
+  "info": {
+    "displayName": "richtext",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "richtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "richtext",
+      "isOneToOne": true
+    },
+    "fontColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "link": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "link",
+      "isOneToOne": true
+    },
+    "ptypography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h1typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h2typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h3typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h4typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h5typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "h6typography": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "typography",
+      "isOneToOne": true
+    },
+    "textPadding": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "left": 0, "right": 0 },
+      "fields": ["left", "right"],
+      "fieldLabels": ["left", "right"],
+      "dataType": "integer",
+      "inputType": "integer"
+    }
+  }
+}

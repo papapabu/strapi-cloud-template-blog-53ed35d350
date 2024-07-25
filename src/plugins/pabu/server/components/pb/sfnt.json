@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_pb_sfnt",
+  "info": {
+    "displayName": "font",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "fontName": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "Roboto-Regular",
+      "regex": "^[a-zA-Z-_0-9]+$"
+    },
+    "fontFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["files"]
+    },
+    "defaultLineHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "1.2"
+    }
+  }
+}

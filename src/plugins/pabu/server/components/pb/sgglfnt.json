@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pb_sgglfnt",
+  "info": {
+    "displayName": "googleFont",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "googleFontCssImport": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": "<style> @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap'); </style>"
+    },
+    "googleFontFamily": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "font-family: 'IBM Plex Sans', sans-serif;"
+    },
+    "defaultLineHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "1.2"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "collectionName": "components_pb_cstwi",
+  "info": {
+    "displayName": "text with image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "headline": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "headline",
+      "isOneToOne": true
+    },
+    "richtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "richtext",
+      "isOneToOne": true
+    },
+    "button": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "button",
+      "isOneToOne": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "maxWidthImage": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 300,
+        "tablet": 400,
+        "desktop": 500,
+        "wqhd": 600
+      },
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "headlineheading": {
+      "type": "enumeration",
+      "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p"],
+      "default": "h2"
+    },
+    "spacerHeadlineRichtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 0
+    },
+    "spacerMiddle": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 20
+    },
+    "spacerButton": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 20
+    },
+    "maxHeightImage": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 200,
+        "tablet": 300,
+        "desktop": 400,
+        "wqhd": 500
+      },
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "ratio1": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "8/4",
+      "regex": "^(?:1\\/11|2\\/10|3\\/9|4\\/8|5\\/7|6\\/6|7\\/5|8\\/4|9\\/3|10\\/2|11\\/1)$"
+    },
+    "ratio2": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "7/5",
+      "regex": "^(?:1\\/11|2\\/10|3\\/9|4\\/8|5\\/7|6\\/6|7\\/5|8\\/4|9\\/3|10\\/2|11\\/1)$"
+    },
+    "ratio3": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "5/7",
+      "regex": "^(?:1\\/11|2\\/10|3\\/9|4\\/8|5\\/7|6\\/6|7\\/5|8\\/4|9\\/3|10\\/2|11\\/1)$"
+    },
+    "ratio4": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "4/8",
+      "regex": "^(?:1\\/11|2\\/10|3\\/9|4\\/8|5\\/7|6\\/6|7\\/5|8\\/4|9\\/3|10\\/2|11\\/1)$"
+    }
+  }
+}

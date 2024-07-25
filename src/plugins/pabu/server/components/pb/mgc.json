@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_pb_mgc",
+  "info": {
+    "displayName": "mgc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "maxWidthImage": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 600
+    },
+    "maxHeightImage": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 200,
+        "tablet": 300,
+        "desktop": 400,
+        "wqhd": 500
+      },
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "captionFontSize": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 10
+    },
+    "bgColorPrimary": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::pabu.str"
+    },
+    "bgColorSecondary": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::pabu.str"
+    }
+  }
+}

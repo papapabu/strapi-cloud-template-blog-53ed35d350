@@ -1,0 +1,92 @@
+{
+  "collectionName": "components_pb_ftrc",
+  "info": {
+    "displayName": "ftrc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerType": {
+      "type": "enumeration",
+      "enum": ["default", "sticky", "parallax"],
+      "default": "default"
+    },
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": true
+    },
+    "richtextFooter": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "richtext",
+      "isOneToOne": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "verticalSpace": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "top": 0, "bottom": 0 },
+      "fields": ["top", "bottom"],
+      "fieldLabels": ["top", "bottom"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "copyrightTextJson": {
+      "type": "json",
+      "default": {
+        "de": "",
+        "en": "",
+        "cn": ""
+      }
+    },
+    "socialMediaWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 290
+    },
+    "socialMediaTitleType": {
+      "type": "enumeration",
+      "enum": ["paragraph", "h2", "h3", "h4", "h5", "h6"],
+      "default": "paragraph"
+    },
+    "repeatableElementWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 290
+    },
+    "footerElementsAlignmentLeft": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": false
+    },
+    "footerCol": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "spaceX": 0, "spaceY": 0 },
+      "fields": ["spaceX", "spaceY"],
+      "fieldLabels": ["spaceX", "spaceY"],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "border": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "border: 0px solid #000000;"
+    },
+    "additionalCss": {
+      "type": "customField",
+      "customField": "plugin::pabu.text-value",
+      "default": ""
+    }
+  }
+}

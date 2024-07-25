@@ -1,0 +1,71 @@
+{
+  "name": "@am-gmbh/pabu-strapi-plugin",
+  "version": "0.0.41",
+  "description": "PageBuilder: Backend as Strapi plugin provided by AM GmbH.",
+  "author": {
+    "name": "AM GmbH"
+  },
+  "maintainers": [
+    {
+      "name": "AM GmbH"
+    }
+  ],
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "admin-develop": "tsc -p tsconfig.json -w",
+    "build": "tsc -p tsconfig.server.json",
+    "clean": "rm -rf dist",
+    "compile-and-build": "tsc -p tsconfig.server.json && tsc -p tsconfig.json",
+    "develop": "tsc -p tsconfig.server.json -w",
+    "pabu-build": "cd ../../../src/plugins/pabu && npm install && npm run compile-and-build && node server/components/install.js",
+    "test": "jest --config jest.config.ts"
+  },
+  "dependencies": {
+    "csso": "5.0.5",
+    "dompurify": "^3.0.8",
+    "file-type": "~16.5.4",
+    "html-minifier": "4.0.0",
+    "jsdom": "^24.0.0",
+    "prop-types": "^15.7.2",
+    "react-colorful": "5.6.1",
+    "slugify": "^1.6.6",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@strapi/helper-plugin": "^4.24.4",
+    "@strapi/icons": "^1.6.3",
+    "@strapi/typescript-utils": "^4.24.4",
+    "@types/html-minifier": "^4.0.5",
+    "@types/jest": "^29.5.6",
+    "@types/koa": "^2.13.10",
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^18.0.28",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "ts-jest": "^29.1.1",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "name": "pabu",
+    "description": "PageBuilder: Backend as Strapi plugin provided by AM GmbH.",
+    "kind": "plugin",
+    "displayName": "Pabu"
+  }
+}

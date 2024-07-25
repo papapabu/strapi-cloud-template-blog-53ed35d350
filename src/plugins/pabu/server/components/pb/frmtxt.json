@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_pb_frmtxt",
+  "info": {
+    "displayName": "text",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldValue": {
+      "type": "text"
+    },
+    "cfgFieldPlaceholder": {
+      "type": "string"
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "cfgFieldCharactersMax": {
+      "type": "integer"
+    },
+    "cfgFieldCharactersMin": {
+      "type": "integer"
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "cfgFieldNoSpecialCharacters": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldNoLetters": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldNoNumbers": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

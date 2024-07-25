@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_pb_frmfl",
+  "info": {
+    "displayName": "file",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldPlaceholder": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "cfgFieldAllowedFileEndings": {
+      "type": "string"
+    },
+    "fieldValue": {
+      "type": "json"
+    },
+    "cfgFieldMaxFileSizeInMB": {
+      "type": "integer"
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

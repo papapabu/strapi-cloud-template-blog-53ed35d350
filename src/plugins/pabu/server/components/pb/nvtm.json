@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pb_nvtm",
+  "info": {
+    "displayName": "nvtm",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "pageId": {
+      "type": "integer"
+    },
+    "subPages": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "externalUrl": {
+      "type": "text"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::pabu.pbpage"
+    }
+  }
+}

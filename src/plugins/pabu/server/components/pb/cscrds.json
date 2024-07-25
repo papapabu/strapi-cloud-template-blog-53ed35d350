@@ -1,0 +1,168 @@
+{
+  "collectionName": "components_pb_cscrds",
+  "info": {
+    "displayName": "cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "richtext": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "richtext",
+      "isOneToOne": true
+    },
+    "button": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "cesstr",
+      "storeType": "button",
+      "isOneToOne": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "bgColorsCards": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "border": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "border: 1px solid black; border-radius: 8px;"
+    },
+    "imageBorder": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "border-top-left-radius: 8px; border-top-right-radius: 8px;"
+    },
+    "shadow": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);"
+    },
+    "showImage": {
+      "type": "customField",
+      "customField": "plugin::pabu.boolean-value",
+      "default": true
+    },
+    "imageHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "small": 100,
+        "medium": 150,
+        "big": 200
+      },
+      "fields": [
+        "small",
+        "medium",
+        "big"
+      ],
+      "fieldLabels": [
+        "small",
+        "medium",
+        "big"
+      ],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "spaceCards": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "x": 0,
+        "y": 50
+      },
+      "fields": [
+        "x",
+        "y"
+      ],
+      "fieldLabels": [
+        "x",
+        "y"
+      ],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "textMargin": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "fields": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "fieldLabels": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "dataType": "integer",
+      "inputType": "integer"
+    },
+    "buttonMargin": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "fields": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "fieldLabels": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "dataType": "integer",
+      "inputType": "integer"
+    }
+  }
+}

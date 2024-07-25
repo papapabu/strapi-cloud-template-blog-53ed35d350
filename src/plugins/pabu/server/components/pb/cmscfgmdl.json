@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pb_cmscfgmdl",
+  "info": {
+    "displayName": "config modal settings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cfgmodalsort": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pb.cmscfgmdlsrt"
+    }
+  }
+}

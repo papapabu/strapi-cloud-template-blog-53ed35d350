@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_pb_frmnm",
+  "info": {
+    "displayName": "dropdown",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "cfgFieldPlaceholder": {
+      "type": "string"
+    },
+    "cfgFieldIsMandatory": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldDropdownValues": {
+      "type": "json"
+    },
+    "cfgFieldCustomErrorMessage": {
+      "type": "string"
+    },
+    "cfgFieldName": {
+      "type": "string"
+    },
+    "fieldValue": {
+      "type": "string"
+    },
+    "cfgIsLabelFieldName": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
+

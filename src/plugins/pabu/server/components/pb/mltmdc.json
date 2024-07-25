@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_pb_mltmdc",
+  "info": {
+    "displayName": "mltmdc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceX",
+      "isOneToOne": true
+    },
+    "spaceY": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "spaceY",
+      "isOneToOne": true
+    },
+    "imageMaxHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 400
+    },
+    "imageMaxWidth": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value",
+      "default": 615
+    },
+    "bgColorPrimary": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::pabu.str"
+    },
+    "bgColorSecondary": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::pabu.str"
+    }
+  }
+}

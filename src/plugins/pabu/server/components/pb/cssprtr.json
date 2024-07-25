@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pb_cssprtr",
+  "info": {
+    "displayName": "separator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "technicalField": true
+    },
+    "bgColors": {
+      "type": "customField",
+      "customField": "plugin::pabu.store-values",
+      "store": "str",
+      "storeType": "color",
+      "isOneToOne": false
+    },
+    "shapeHeight": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": { "small": 30, "medium": 60, "large": 120 },
+      "fields": ["small", "medium", "large"],
+      "fieldLabels": ["small", "medium", "large"],
+      "dataType": "integer",
+      "inputType": "integer"
+    }
+  }
+}

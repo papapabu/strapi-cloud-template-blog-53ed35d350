@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pb_rspnsvc",
+  "info": {
+    "displayName": "rspnsvc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "breakpoints": {
+      "type": "customField",
+      "customField": "plugin::pabu.grouped-values",
+      "default": {
+        "mobile": 768,
+        "tablet": 1366,
+        "desktop": 2560,
+        "wqhd": 3840
+      },
+      "inputType": "integer",
+      "dataType": "integer"
+    }
+  }
+}

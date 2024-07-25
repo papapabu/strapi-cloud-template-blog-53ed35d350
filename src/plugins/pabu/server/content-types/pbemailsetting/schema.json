@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "pbemailsettings",
+  "info": {
+    "singularName": "pbemailsetting",
+    "pluralName": "pbemailsettings",
+    "displayName": "pbemailsettings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pb.mlc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "template": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pb.tmpltc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

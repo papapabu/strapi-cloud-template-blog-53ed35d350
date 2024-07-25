@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pb_pnl",
+  "info": {
+    "displayName": "panel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "richTextContent": {
+      "type": "richtext"
+    }
+  }
+}

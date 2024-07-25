@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pb_sspcx",
+  "info": {
+    "displayName": "spaceX",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "strname": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value"
+    },
+    "strinfo": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "",
+      "technicalField": true
+    },
+    "spaceX": {
+      "type": "customField",
+      "customField": "plugin::pabu.integer-value"
+    },
+    "valueAttribute": {
+      "type": "customField",
+      "customField": "plugin::pabu.string-value",
+      "default": "spaceX",
+      "technicalField": true
+    }
+  }
+}
