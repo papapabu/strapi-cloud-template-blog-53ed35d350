@@ -23,9 +23,7 @@ export default {
     fileInfo: any,
     fileCategory: string | undefined = undefined
   ) {
-    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
     let systemFileInfo = {
       [fileName]: fileInfo,
     };
@@ -57,9 +55,7 @@ export default {
     fileName: string,
     fileCategory: string | undefined = undefined
   ) {
-    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
     if (pbSystem && pbSystem.systemFiles) {
       if (fileCategory) {
         if (pbSystem.systemFiles[fileCategory]) {
@@ -134,9 +130,7 @@ export default {
   ) {
     strapi.log.debug("[PB]: Creating a PbSystem Strapi File...");
 
-    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
     if (!pbSystem) {
       pbSystem = await pbEntityService.create(SYSTEM_MODULE_UID, {
         data: {
@@ -312,9 +306,7 @@ export default {
    * createSystemStrapiStoreFiles
    */
   async createSystemStrapiStoreFiles() {
-    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
 
     // TODO: Check if media-url is in contentElementSettings.
     const backgrounds = await pbEntityService.findMany(STORE_MODULE_UID, {
@@ -352,9 +344,7 @@ export default {
    */
   async generateTemporarySystemFiles() {
     let createAndClearRequired = true;
-    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
 
     const createAndClearSystemDirectory = async () => {
       strapi.log.debug("Creating directory /public/assets/system/ ...");
@@ -640,9 +630,7 @@ export default {
    * This function is used by the updateStep for Pabu version 1.1.
    */
   async generateInitialSystemFiles() {
-    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    let pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
 
     if (!pbSystem) {
       pbSystem = await pbEntityService.create(SYSTEM_MODULE_UID, {
@@ -738,23 +726,23 @@ export default {
     // TODO: !!!
 
     // Migration of store fonts
-    const fonts = await pbEntityService.findMany(STORE_MODULE_UID, {
-      fields: ["*"],
-      filters: {
-        type: "font",
-      },
-      sort: {},
-      populate: "pb-deep",
-    });
-    for await (const font of fonts) {
-      if (
-        font &&
-        font.setting[0] &&
-        font.setting[0].fontFile &&
-        font.setting[0].fontName
-      ) {
-        // TODO:
-      }
-    }
+    // const fonts = await pbEntityService.findMany(STORE_MODULE_UID, {
+    //   fields: ["*"],
+    //   filters: {
+    //     type: "font",
+    //   },
+    //   sort: {},
+    //   populate: "pb-deep",
+    // });
+    // for await (const font of fonts) {
+    //   if (
+    //     font &&
+    //     font.setting[0] &&
+    //     font.setting[0].fontFile &&
+    //     font.setting[0].fontName
+    //   ) {
+    //     // TODO:
+    //   }
+    // }
   },
 };

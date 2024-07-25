@@ -1576,9 +1576,7 @@ export default {
     };
     let fontFaces = `${fallbackFont.css.fontFace}`;
 
-    const pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    const pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
 
     // Googlefont & Font Handling
     const storeFonts = (await pbEntityService.findMany("plugin::pabu.str", {

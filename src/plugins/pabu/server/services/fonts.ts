@@ -75,9 +75,7 @@ export default {
       }
     }
 
-    const pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {
-      populate: "pb-deep",
-    });
+    const pbSystem = await pbEntityService.findMany(SYSTEM_MODULE_UID, {});
     if (pbSystem && pbSystem.systemFiles && pbSystem.systemFiles.fonts) {
       for (const systemFileFontName of Object.keys(
         pbSystem.systemFiles.fonts
